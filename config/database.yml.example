@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  encoding: utf-8
+  database: your_database
+  pool: 5
+  username: your_db_user
+  password:
+  host: localhost
+test:
+  adapter: postgresql
+  encoding: utf-8
+  database: your_database
+  pool: 5
+  username: your_db_user
+  password:
+  host: localhost
